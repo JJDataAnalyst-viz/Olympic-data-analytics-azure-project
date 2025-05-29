@@ -1,0 +1,13 @@
+{
+	"name": "MedalsHTTP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/JJDataAnalyst-viz/Olympic-data-analytics-azure-project/raw/refs/heads/main/raw%20data/Medals.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

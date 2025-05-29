@@ -1,0 +1,9 @@
+{
+	"name": "tokyo-olympic-pipeline-db",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6dec9822-acbc-43a3-b59c-a6fa0f7d7592",
+		"tenantId": "e8a52afe-6ea8-47f7-b275-783f7087b5fa"
+	}
+}

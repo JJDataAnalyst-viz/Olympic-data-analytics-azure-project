@@ -1,0 +1,25 @@
+{
+	"name": "MedalsRAW",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageRaw",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Medals.csv",
+				"folderPath": "raw",
+				"fileSystem": "tokyoolimpic"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
